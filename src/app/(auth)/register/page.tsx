@@ -22,13 +22,13 @@ export default function Component() {
                           </>
                         ) : (
                           <>
-                            <h2 className="mb-2 text-lg font-semibold">Login into your account</h2>
+                            <h2 className="mb-2 text-lg font-semibold">Register an account</h2>
                             <Button className="inline-flex gap-2 w-full" size={"lg"} onClick={() => signIn('google')}>
-                              <span>Login with Discord</span>
+                              <span>Register with Discord</span>
                               <FaDiscord />
                             </Button>
                             <p className="text-sm font-light">
-                                Do not have an account? <a href="/register" className="font-medium text-primary-600 hover:underline dark:text-primary-500">Sign up</a>
+                               Already have an account? <a href="/login" className="font-medium text-primary-600 hover:underline dark:text-primary-500">Login</a>
                             </p>
                           </>
                         )}
