@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "node src/bloquito-bot/main.js & next dev",
+    "start": "node src/bloquito-bot/main.js & next start",
+    "build": "next build"
   },
   "dependencies": {
     "@auth/mongodb-adapter": "^3.7.4",
