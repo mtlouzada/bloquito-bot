@@ -23,7 +23,7 @@ export default function Component() {
                         ) : (
                           <>
                             <h2 className="mb-2 text-lg font-semibold">Login into your account</h2>
-                            <Button className="inline-flex gap-2 w-full" size={"lg"} onClick={() => signIn('google')}>
+                            <Button className="inline-flex gap-2 w-full" size={"lg"} onClick={() => signIn()}>
                               <span>Login with Discord</span>
                               <FaDiscord />
                             </Button>
